@@ -1,0 +1,49 @@
+.gitattributes merge=copy-merge
+.gitignore merge=copy-merge
+package.json merge=copy-merge
+package-lock.json merge=copy-merge
+pnpm-lock.yaml merge=copy-merge
+setup.sh merge=copy-merge
+
+# __CRIO__
+__CRIO__/metadata.json merge=copy-merge
+
+# backend/
+backend/db/products.db merge=copy-merge
+backend/routes/auth.js merge=copy-merge
+backend/package.json merge=copy-merge
+backend/package-lock.json merge=copy-merge
+backend/pnpm-lock.yaml merge=copy-merge
+
+# public/
+public/logo192.png merge=copy-merge
+public/logo512.png merge=copy-merge
+public/avatar.png merge=copy-merge
+public/icon-white.png merge=copy-merge
+public/index.html merge=copy-merge
+public/icon.svg merge=copy-merge
+public/robots.txt merge=copy-merge
+public/favicon.ico merge=copy-merge
+public/manifest.json merge=copy-merge
+
+# src/
+src/setupTests.js merge=copy-merge
+
+
+# src/__tests__
+src/__tests__/Home.test.js merge=copy-merge
+src/__tests__/Login.test.js merge=copy-merge
+src/__tests__/App.test.js merge=copy-merge
+src/__tests__/Register.test.js merge=copy-merge
+src/__tests__/Cart.test.js merge=copy-merge
+src/__tests__/Checkout.test.js merge=copy-merge
+src/__tests__/Product.test.js merge=copy-merge
+src/__tests__/Search.test.js merge=copy-merge
+
+# src/components
+src/components/Home.css merge=copy-merge
+src/components/Header.css merge=copy-merge
+src/components/Footer.css merge=copy-merge
+
+src/components/Thanks.js merge=copy-merge
+src/components/Footer.js merge=copy-merge 

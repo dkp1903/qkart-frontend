@@ -1,0 +1,15 @@
+/* CRIO_SOLUTION_START_MODULE_CHECKOUT */
+/* CRIO_SOLUTION_END_MODULE_CHECKOUT */
+
+.thanks-container {
+  background: #dcffe4;
+  margin: 120px auto;
+  width: max-content;
+  padding: 5em;
+  box-sizing: content-box;
+  text-align: center;
+}
+.thanks-line {
+  font-size: 1.25em;
+  margin: 1.5em 0;
+}
